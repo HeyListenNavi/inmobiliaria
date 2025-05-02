@@ -26,62 +26,76 @@
                 Buscar
             </x-button>
         </div>
-        <div class="container mx-auto hidden md:flex snap-x items-center justify-center gap-8 overflow-y-auto py-4">
+        <div class="container mx-auto hidden snap-x items-center justify-center gap-8 overflow-y-auto py-4 md:flex">
             <img
-                class="hidden lg:flex h-[200px] w-[240px] shrink-0 snap-center items-center justify-center rounded-2xl bg-gray-200 text-gray-400">
-                <span>Placeholder</span>
-            </img>
+            class="hidden h-[200px] w-[240px] shrink-0 snap-center items-center justify-center rounded-2xl bg-gray-200 text-gray-400 lg:flex" src="https://picsum.photos/1920/1080"/>
             <img
-                class="flex h-[250px] w-[240px] shrink-0 items-center justify-center rounded-2xl bg-gray-200 text-gray-400">
-                <span>Placeholder</span>
-            </img>
+            class="flex h-[250px] w-[240px] shrink-0 items-center justify-center rounded-2xl bg-gray-200 text-gray-400" src="https://picsum.photos/1920/1080"/>
             <img
-                class="flex h-[300px] w-[240px] shrink-0 snap-center items-center justify-center rounded-2xl bg-gray-200 text-gray-400">
-                <span>Placeholder</span>
-            </img>
+            class="flex h-[300px] w-[240px] shrink-0 snap-center items-center justify-center rounded-2xl bg-gray-200 text-gray-400" src="https://picsum.photos/1920/1080"/>
             <img
-                class="flex h-[250px] w-[240px] shrink-0 items-center justify-center rounded-2xl bg-gray-200 text-gray-400">
-                <span>Placeholder</span>
-            </img>
+            class="flex h-[250px] w-[240px] shrink-0 items-center justify-center rounded-2xl bg-gray-200 text-gray-400" src="https://picsum.photos/1920/1080"/>
             <img
-                class="hidden lg:flex h-[200px] w-[240px] shrink-0 snap-center items-center justify-center rounded-2xl bg-gray-200 text-gray-400">
-                <span>Placeholder</span>
-            </img>
+            class="hidden h-[200px] w-[240px] shrink-0 snap-center items-center justify-center rounded-2xl bg-gray-200 text-gray-400 lg:flex" src="https://picsum.photos/1920/1080"/>
         </div>
     </div>
 @endsection
 
 @section('body')
-    <div class="px-4 container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-        <img x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="group flex min-h-[350px] flex-col items-start justify-end rounded-2xl bg-gray-200 bg-gradient-to-b from-transparent from-60% to-black px-4 py-8 text-white">
-            <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-            <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
-        </img>
-        <img x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="group flex min-h-[350px] flex-col items-start justify-end rounded-2xl bg-gray-200 bg-gradient-to-b from-transparent from-60% to-black px-4 py-8 text-white">
-            <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-            <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
-        </img>
-        <img x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="group flex min-h-[350px] flex-col items-start justify-end rounded-2xl bg-gray-200 bg-gradient-to-b from-transparent from-60% to-black px-4 py-8 text-white">
-            <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-            <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
-        </img>
-        <img x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="group flex min-h-[350px] flex-col items-start justify-end rounded-2xl bg-gray-200 bg-gradient-to-b from-transparent from-60% to-black px-4 py-8 text-white">
-            <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-            <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
-        </img>
-        <img x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="group flex min-h-[350px] flex-col items-start justify-end rounded-2xl bg-gray-200 bg-gradient-to-b from-transparent from-60% to-black px-4 py-8 text-white">
-            <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-            <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
-        </img>
-        <img x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="group flex min-h-[350px] flex-col items-start justify-end rounded-2xl bg-gray-200 bg-gradient-to-b from-transparent from-60% to-black px-4 py-8 text-white">
-            <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-            <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
-        </img>
+    <div class="container mx-auto grid gap-12 px-4 md:grid-cols-2 lg:grid-cols-3">
+
+        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+            <div
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+            </div>
+        </div>
+
+        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+            <div
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+            </div>
+        </div>
+
+        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+            <div
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+            </div>
+        </div>
+
+        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+            <div
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+            </div>
+        </div>
+
+        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+            <div
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+            </div>
+        </div>
+
+        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+            <div
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+            </div>
+        </div>
     </div>
 @endsection
