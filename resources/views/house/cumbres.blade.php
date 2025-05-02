@@ -5,7 +5,7 @@
         <div x-data="modelGallery([
             '{{asset("img/cumbres/1.jpg")}}',
             '{{asset("img/cumbres/2.jpg")}}',
-            '{{asset("img/cumbres/3.jpeg")}}',
+            '{{asset("img/cumbres/3.jpg")}}',
             '{{asset("img/cumbres/4.webp")}}',
             '{{asset("img/cumbres/5.webp")}}',
             '{{asset("img/cumbres/6.jpg")}}',
@@ -35,7 +35,7 @@
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 max-w-9xl md:p-8 items-center justify-center gap-12">
                         <template x-for="(image, index) in images">
                             <img x-bind:src="image" x-on:click="setImage(index)"
-                                class="w-full rounded-2xl bg-clip-content p-1 transition-transform hover:scale-105 hover:shadow-lg"
+                                class="w-full rounded-2xl max-h-[300px] object-cover bg-clip-content p-1 transition-transform hover:scale-105 hover:shadow-lg"
                                 x-bind:class="{
                                     'ring-2 ring-gray-200': galleryIndex == index,
                                     'cursor-pointer': true
@@ -50,7 +50,7 @@
             <div class="flex items-center justify-between gap-2">
                 <div class="flex flex-col gap-1">
                     <h1 class="text-headline-large font-[Raleway]">Departamento en Venta Altura Cumbres Cancun</h1>
-                    <h2 class="text-label-large font-normal text-gray-400">Casa</h2>
+                    <h2 class="text-label-large font-normal text-gray-400">Departamento</h2>
                 </div>
                 <div class="flex items-center gap-1 text-gray-400">
                     <i class="bx bxs-heart text-4xl"></i>
@@ -66,7 +66,7 @@
                 </div>
 
                 <p class="text-body-small text-gray-400">Departamento en Venta Altura Cumbres Cancun
-                    Oportunidad. Espectacular departamento de 3 recamaras, 3 baños completos. Medio baño para visitas. Cuarto de servicio con baño completo. Cuarto de TV. Sala comedor y cocina.
+                    Oportunidad Espectacular, departamento de 3 recamaras, 3 baños completos. Medio baño para visitas. Cuarto de servicio con baño completo. Cuarto de TV. Sala comedor y cocina.
                     Dos cajones de estacionamiento independientes y una bodega.
                     Todo el departamento incluye aire acondicionado, ventiladores y cortinas blackout.
                     Estupendas areas comunes con alberca, carriles de nado, palapa central. Gimnasio, business center, ludoteca. Cuarto de vapor.

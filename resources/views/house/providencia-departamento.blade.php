@@ -65,7 +65,7 @@
                 </div>
 
                 <p class="text-body-small text-gray-400">Departamento en Venta en Providencia en Guadalajara
-                    El edificio ubicado  en la Avenida Rubén Darío cruce con Garibaldi, el departamento está en el segundo nivel, con  vista a la calle Garibaldi y frente al Norte,  tiene una superficie de 110m2.
+                    El edificio ubicado en la Avenida Rubén Darío cruce con Garibaldi, el departamento está en el segundo nivel, con  vista a la calle Garibaldi y frente al Norte,  tiene una superficie de 110m2.
                     Esta propiedad recientemente se remodeló con pisos, baños y cocina y tiene 2 recamaras, 1 baño, sala comedor, cocina integral, cochera 1 auto, área y cuarto de servicio.
                     El precio del departamento es de $4’300,000.</p>
             </div>

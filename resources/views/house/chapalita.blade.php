@@ -64,7 +64,7 @@
                 </div>
 
                 <p class="text-body-small text-gray-400">Casa en Renta en Chapalita en Guadalajara
-                    La Casa tiene 3 Recamaras,  estudio, sala comedor, cocina integral, cochera 2 autos, patio interior.
+                    La Casa tiene 3 Recamaras, estudio, sala comedor, cocina integral, cochera 2 autos, patio interior.
                     La Renta es de $25,000</p>
             </div>
 

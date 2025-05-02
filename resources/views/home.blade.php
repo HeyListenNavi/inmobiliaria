@@ -44,58 +44,58 @@
 @section('body')
     <div class="container mx-auto grid gap-12 px-4 md:grid-cols-2 lg:grid-cols-3">
 
-        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+        <a href="{{ route('americana') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/americana/1.jpg') }})">
             <div
-                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
-                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Loft en Renta Americana Nau Living Guadalajara</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Departamento Tipo Loft Americana Arcos Vallarta Renta Guadalajara muy cerca de la Minerva y Colonia Americana</span>
             </div>
-        </div>
+        </a>
 
-        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+        <a href="{{ route('arboledas') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/arboledas/1.webp') }})">
             <div
-                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
-                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Amplia Casa Fracc. Arboledas</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Excelente ubicación, céntrico punto estratégico para ir a cualquier parte de la Ciudad</span>
             </div>
-        </div>
+        </a>
 
-        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+        <a href="{{ route('chapalita') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/chapalita/Chapalita.jpeg') }})">
             <div
-                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
-                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Chapalita Casa en Renta Guadalajara</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300"> La Casa tiene 3 Recamaras, estudio, sala comedor, y mucho mas</span>
             </div>
-        </div>
+        </a>
 
-        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+        <a href="{{ route('cumbres') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/cumbres/1.jpg') }})">
             <div
-                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
-                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Departamento en Venta Altura Cumbres Cancun</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300"> Oportunidad Espectacular, departamento de 3 recamaras, 3 baños completos. Medio baño para visitas. Cuarto de servicio con baño completo. Cuarto de TV. Sala comedor y cocina</span>
             </div>
-        </div>
+        </a>
 
-        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+        <a href="{{ route('providencia') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/providencia/Providencia-Departamento-1.jpeg') }})">
             <div
-                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
-                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Providencia Departamento Remodelado</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">El edificio ubicado en la Avenida Rubén Darío cruce con Garibaldi</span>
             </div>
-        </div>
+        </a>
 
-        <div x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl bg-[url('https://picsum.photos/1920/1080')] text-white">
+        <a href="{{ route('rio') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
+            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/rio/1.jpg') }})">
             <div
-                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-60% to-black px-4 py-8">
-                <h1 class="text-body-large mb-4 font-[Raleway]">Placeholder</h1>
-                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Placeholder</span>
+                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <h1 class="text-body-large mb-4 font-[Raleway]">Casa en Rio Residencial</h1>
+                <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Casa en Venta en Fraccionamiento Río, Cancún</span>
             </div>
-        </div>
+        </a>
     </div>
 @endsection
