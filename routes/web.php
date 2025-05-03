@@ -29,3 +29,15 @@ Route::get('/arboledas', function () {
 Route::get('/cumbres', function () {
     return view('house.cumbres');
 })->name("cumbres");
+
+Route::get('/suchiate', function () {
+    return view('house.suchiate');
+})->name("suchiate");
+
+Route::get('/muralla', function () {
+    return view('house.muralla');
+})->name("muralla");
+
+Route::get('/santander', function () {
+    return view('house.santander');
+})->name("santander");
