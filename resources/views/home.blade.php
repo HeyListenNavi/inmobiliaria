@@ -53,79 +53,88 @@
         <a href="{{ route('americana') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
             class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/americana/1.jpg') }})">
             <div
-                class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                class="relative flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <span class="absolute text-lg text-black top-8 left-8 bg-white px-4 rounded-md font-[Inter] font-medium">Renta</span>
                 <h1 class="text-body-large mb-4 font-[Raleway]">Loft en Renta Americana Nau Living Guadalajara</h1>
                 <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Departamento Tipo Loft Americana Arcos Vallarta Renta Guadalajara muy cerca de la Minerva y Colonia Americana</span>
             </div>
         </a>
 
         <a href="{{ route('arboledas') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/arboledas/1.webp') }})">
+            class="relative bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/arboledas/1.webp') }})">
             <div
                 class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <span class="absolute text-lg text-black top-8 left-8 bg-white px-4 rounded-md font-[Inter] font-medium">Venta</span>
                 <h1 class="text-body-large mb-4 font-[Raleway]">Amplia Casa Fracc. Arboledas</h1>
                 <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Excelente ubicación, céntrico punto estratégico para ir a cualquier parte de la Ciudad</span>
             </div>
         </a>
 
         <a href="{{ route('chapalita') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/chapalita/Chapalita.jpeg') }})">
+            class="relative bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/chapalita/Chapalita.jpeg') }})">
             <div
                 class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <span class="absolute text-lg text-black top-8 left-8 bg-white px-4 rounded-md font-[Inter] font-medium">Renta</span>
                 <h1 class="text-body-large mb-4 font-[Raleway]">Chapalita Casa en Renta Guadalajara</h1>
                 <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300"> La Casa tiene 3 Recamaras, estudio, sala comedor, y mucho mas</span>
             </div>
         </a>
 
         <a href="{{ route('cumbres') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/cumbres/1.jpg') }})">
+            class="relative bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/cumbres/1.jpg') }})">
             <div
                 class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <span class="absolute text-lg text-black top-8 left-8 bg-white px-4 rounded-md font-[Inter] font-medium">Venta</span>
                 <h1 class="text-body-large mb-4 font-[Raleway]">Departamento en Venta Altura Cumbres Cancun</h1>
                 <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300"> Oportunidad Espectacular, departamento de 3 recamaras, 3 baños completos. Medio baño para visitas. Cuarto de servicio con baño completo. Cuarto de TV. Sala comedor y cocina</span>
             </div>
         </a>
 
         <a href="{{ route('providencia') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/providencia/Providencia-Departamento-1.jpeg') }})">
+            class="relative bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/providencia/Providencia-Departamento-1.jpeg') }})">
             <div
                 class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <span class="absolute text-lg text-black top-8 left-8 bg-white px-4 rounded-md font-[Inter] font-medium">Venta</span>
                 <h1 class="text-body-large mb-4 font-[Raleway]">Providencia Departamento Remodelado</h1>
                 <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">El edificio ubicado en la Avenida Rubén Darío cruce con Garibaldi</span>
             </div>
         </a>
 
         <a href="{{ route('rio') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/rio/1.jpg') }})">
+            class="relative bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/rio/1.jpg') }})">
             <div
                 class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <span class="absolute text-lg text-black top-8 left-8 bg-white px-4 rounded-md font-[Inter] font-medium">Venta</span>
                 <h1 class="text-body-large mb-4 font-[Raleway]">Casa en Rio Residencial</h1>
                 <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Casa en Venta en Fraccionamiento Río, Cancún</span>
             </div>
         </a>
 
         <a href="{{ route('suchiate') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/suchiate/1.jpg') }})">
+            class="relative bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/suchiate/1.jpg') }})">
             <div
                 class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <span class="absolute text-lg text-black top-8 left-8 bg-white px-4 rounded-md font-[Inter] font-medium">Renta</span>
                 <h1 class="text-body-large mb-4 font-[Raleway]">Casa de Renta en Lomas del Valle</h1>
                 <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Se renta hermosa casita de 2 recámaras y 2 niveles totalmente amueblada.</span>
             </div>
         </a>
 
         <a href="{{ route('muralla') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/muralla/1.jpg') }})">
+            class="relative bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/muralla/1.jpg') }})">
             <div
                 class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <span class="absolute text-lg text-black top-8 left-8 bg-white px-4 rounded-md font-[Inter] font-medium">Renta</span>
                 <h1 class="text-body-large mb-4 font-[Raleway]">Renta Casa en San Pedro Garza Garcia, La Muralla</h1>
                 <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">e renta espaciosa casa en Valle Oriente, San Pedro Garza García, dentro del exclusivo Residencial La Muralla.</span>
             </div>
         </a>
 
         <a href="{{ route('santander') }}" x-data="{ show: false }" x-on:mouseenter="show = true" x-on:mouseleave="show = false"
-            class="bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/santander/1.jpg') }})">
+            class="relative bg-cover bg-center group min-h-[350px] rounded-2xl text-white" style="background-image: url({{ asset('img/santander/1.jpg') }})">
             <div
                 class="flex h-full w-full flex-col items-start justify-end rounded-2xl bg-gradient-to-b from-transparent from-70% to-black px-4 py-8">
+                <span class="absolute text-lg text-black top-8 left-8 bg-white px-4 rounded-md font-[Inter] font-medium">Renta</span>
                 <h1 class="text-body-large mb-4 font-[Raleway]">Casa en Renta en San Pedro Garza García</h1>
                 <span x-show="show" x-cloak x-collapse class="text-body-small text-gray-300">Cocina equipada Area social con alberca y asador Sótano con area para gimnasio, cine, bar y cuarto de visitas con baño completo.</span>
             </div>
